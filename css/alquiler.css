@@ -72,6 +72,40 @@ header{
     font-size: 20px;
 }
 
+#cuerpo{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#cuerpo2{
+    flex-grow: 1;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+#todo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.instagram-media{
+    margin: 100px;
+}
+
+@media (max-width: 820px) {
+    #cuerpo{
+        width: 100%;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+}
+
 
 
 /*------CUERPO FIN--------*/
